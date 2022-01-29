@@ -1,0 +1,69 @@
+\input{packages.tex}
+\newcounter{mypara}
+\setcounter{mypara}{0}
+
+% Make Glossaries
+\makeglossaries
+\input{acronymes.tex}
+\input{glossaire.tex}
+
+\setcounter{secnumdepth}{4}
+
+% Document
+\begin{document}{
+
+\sloppy
+
+\input{titlepage.tex}
+\nobibliography*
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+% Table of contents
+\tableofcontents
+
+% First chapter
+\flushbottom 
+\setstretch{1.3} 
+\chapter{Titre du chapitre}
+\flushbottom 
+\setstretch{1.3}
+
+\og Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at tellus sit amet augue interdum sagittis. Donec odio enim, convallis eu pellentesque ac, iaculis mollis libero \gls{Cras orci massa}. Proin pellentesque ultrices sollicitudin. Nullam auctor arcu et tellus ornare vestibulum. In rutrum consectetur sodales. Sed ut nulla mollis magna pellentesque pharetra.\fg\par
+\textemdash Vitae sapien et dignissim, \emph{Pellentesque dictum}, 1887.\par
+
+\setstretch{1}\section{Section}\setstretch{1.3}
+
+Vivamus eget tincidunt diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis tempus est sem, at pellentesque justo eleifend in.\par
+
+\setstretch{1}\subsection{Subsection}\setstretch{1.3}
+
+Vivamus lacinia consequat hendrerit. Aenean convallis, tellus id imperdiet euismod, lorem tellus feugiat leo, a scelerisque eros nunc at sem. Proin at dignissim tortor, sed feugiat turpis. Duis nec ante at tortor sagittis vehicula eget in tellus. \footnote{\bibentry{xxxx}.}, liquam dapibus, lacus id sodales pretium, odio dolor commodo ex, at venenatis justo lorem sit amet est. Vivamus dictum pretium diam, a sollicitudin neque accumsan nec. Donec blandit eleifend lacus in imperdiet. Maecenas ut ante nec nunc lobortis scelerisque a feugiat velit.\par
+	
+\setstretch{1}\subsubsection{Subsubsection}\setstretch{1.3}
+
+Cras bibendum non ante quis gravida. In placerat, lectus nec ultricies bibendum, felis \acrshort{metus}. Praesent viverra dolor mollis nisi hendrerit, id tincidunt libero aliquet. In tristique commodo pellentesque.\par 
+
+\[ \frac{\Delta W}{W}= \alpha.U^{-\beta}- \gamma \]
+
+Sed non neque nec nisi pellentesque volutpat. Duis eget risus vitae nibh aliquet pretium quis sit amet lacus. Pellentesque vel lacinia mauris.\par
+	
+\paragraph{Paragraph}
+
+Phasellus convallis libero eu imperdiet dignissim. Vivamus molestie eu risus vitae mollis. Nam auctor orci at augue mattis, eget condimentum nisi posuere.\par
+
+\subparagraph{Subparagraph}Proin eget quam laoreet, efficitur lacus vel, tincidunt metus. Mauris sagittis vestibulum quam, vitae posuere enim porttitor sed. Nam sed commodo risus. Ut vel odio quam. Suspendisse consequat ut libero ac congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce egestas, neque a facilisis tempus, augue sem ultricies ligula, a suscipit ipsum enim a diam.\par
+
+\newpage
+
+% Bibliography
+\bibliographystyle{plainnat}
+\bibliography{bibliographie}
+
+% Acronyms
+\printglossary[type=\acronymtype]
+% Glossary
+\printglossary
+
+
+\end{document}

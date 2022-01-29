@@ -1,0 +1,40 @@
+% -*- coding: utf-8 -*-
+% Preamble
+\documentclass[french, 12pt]{report}
+	\usepackage[utf8]{inputenc}
+	\usepackage{url}
+	\usepackage{float}
+	\usepackage{fontspec}
+	\usepackage{hyperref}
+	\usepackage{setspace}
+	\usepackage{bibentry}
+	\usepackage{tocloft}
+	\usepackage{titlesec}
+	\usepackage[T1]{fontenc}
+	\usepackage[french]{babel}
+	\usepackage[round]{natbib}
+	\usepackage[acronym]{glossaries}
+	\title{Titre du mémoire}
+	\author{Nom et prénom de l'auteur}
+	\date{\today}
+
+% Set parameters
+\setcounter{page}{0}
+\hypersetup{linktoc=all}
+
+\addtolength{\skip\footins}{0.6pc}
+\renewcommand*\footnoterule{} %Footnode separator line
+
+\def\siecle#1{\textsc{\romannumeral #1}\textsuperscript{e}~siècle}
+
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} %places dots on sections lines as well
+
+\cftsetindents{section}{0pt}{4em}
+\cftsetindents{subsection}{10pt}{4em}
+\cftsetindents{subsubsection}{20pt}{4em}
+\cftsetindents{paragraph}{30pt}{4em}
+\cftsetindents{subparagraph}{40pt}{4em}
+\def\cftdotsep{1}
+\cftsetpnumwidth{1em}
+
+\renewcommand{\cftchapafterpnum}{\vspace{\cftbeforechapskip}}
