@@ -5,7 +5,7 @@ Synthétiquement, LaTeX est un langage et un système de composition de document
 
 Pour cette raison, bien qu’il nécessite une courbe d’apprentissage supérieure à celle relative à l’utilisation des logiciels de traitement de texte traditionnels, ce dernier confère des avantages décisifs pour les chercheurs dépendant de la fonction rédactionnelle, dont les étudiants en université et les enseingants.
 
-## Qualités intrinsèques du langage pour la rédaction de documents académmiques
+## Qualités intrinsèques du langage pour la rédaction de documents académiques
 
 Si l’on devait cristalliser les besoins exprimés par les étudiants chercheurs en ce qui concerne la production et la conservation de l’acte documentaire, on observerait une convergence naturelle vers un triptyque qualité-immutabilité-portabilité. Qualité, en premier lieu, dans le rendu proposé par l’outil de production et sa capacité à se présenter comme un support efficace du transfert d’informations entre les parties contractantes. 
 
