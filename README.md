@@ -25,7 +25,7 @@ Ceci étant évoqué, on peut s’interroger sur la structure organique d’un d
 
 Enfin, à la frontière entre la portabilité et l’immutabilité, l’argument majeur pour une systématisation du langage LaTeX réside dans le fait qu’il est un protocole backward et forward compatible. Cette persistance permet d’exploiter un fichier indépendamment de sa date de création, sans se soucier de possibles modifications visuelles. On trouve en réalité ici une caractéristique déterminante pour l’adoption d’une telle solution : 
 
->il deviendra quasiment impossible de satisfaire une situation ou des données deviennent illisibles, se dégradent, et, ou un mode de compatibilité doit être mis en œuvre afin d’espérer une récupération correcte de la mise en page ancienne.
+>Il deviendra quasiment impossible de satisfaire une situation ou des données deviennent illisibles, se dégradent, et, ou un mode de compatibilité doit être mis en œuvre afin d’espérer une récupération correcte de la mise en page ancienne.
 
 En d’autres termes : un document LaTeX est, du fait de la fixité de ses spécifications, conçu pour être lisible indéfiniment, au même titre que le format `.pdf`.
 
